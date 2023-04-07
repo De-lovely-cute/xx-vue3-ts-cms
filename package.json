@@ -11,8 +11,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "prettier": "prettier --write .",
-    "prepare": "husky install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install"
   },
   "dependencies": {
     "core-js": "^3.8.3",
