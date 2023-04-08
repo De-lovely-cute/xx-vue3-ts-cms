@@ -9,13 +9,21 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'App',
-  components: {
+  props: {
+    name: {
+      type: String
+    }
   }
 })
 </script>
 
 <style lang="less">
-.app {
-  height: 100%;
-}
+  .app {
+    height: 100%;
+  }
+  .font-icon{
+    height: 14px;
+    width: 14px;
+    margin-right: 8px;
+  }
 </style>
